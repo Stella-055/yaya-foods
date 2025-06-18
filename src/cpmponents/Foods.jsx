@@ -2,6 +2,7 @@ import React from "react";
 import { foodlist } from "../../public/foodlist";
 import { FaStar } from "react-icons/fa6";
 
+
 const Foods = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Foods = () => {
         return (
           <div key={id} className="food-container">
             <div className="food-container-image-div">
-              <img src={food.image} alt="imaga" />
+              <img src={food.image || "download.png"} alt="imaga" />
               {food.discount && (
                 <div className="food-container-discount">
                   <span>{food.discount}%</span>
@@ -25,7 +26,7 @@ const Foods = () => {
               )}
             </div>
             <div className="food-container-details">
-              <h3>{food.title}</h3>
+              <h3>{food.title }</h3>
               <p>{food.description}</p>
               <h3 className="food-container-details-price">${food.price}</h3>
             </div>

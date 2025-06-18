@@ -73,7 +73,7 @@ export const foodlist = [
   },
   {
     id: "8",
-    image: "carrotcake.jpeg",
+    
     description:
       "Pasta dish made with fatty cured pork,hard cheese eggs and salt",
     title: "Carrot Cake",
