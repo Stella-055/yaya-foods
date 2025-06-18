@@ -3,7 +3,7 @@ export const foodlist = [
     id: "1",
     image: "spaggeti.jpeg",
     description:
-      "pasta dish made with fatty cured pork,hard cheese eggs and salt",
+      "Pasta dish made with fatty cured pork,hard cheese eggs and salt",
     title: "Spaghetti Carbonara",
     price: "30.00",
     discount: "20",
@@ -14,7 +14,7 @@ export const foodlist = [
     id: "2",
     image: "chickenandrice.jpeg",
     description:
-      "This one-pot chicken and rice recipe is quick enough for a weeknight but harnesses long-simmered flavor",
+      "This one-pot chicken and rice is perfect for a weeknight ",
     title: "Chicken and Rice",
     price: "28.00",
     discount: "10",
