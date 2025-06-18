@@ -3,7 +3,7 @@ import { MdFoodBank } from "react-icons/md";
 import { RiDrinksLine } from "react-icons/ri";
 import { CiPizza } from "react-icons/ci";
 import { LuSalad } from "react-icons/lu";
-
+import { GiHamburgerMenu } from "react-icons/gi"
 import { GiHotSpices } from "react-icons/gi";
 import { LuCakeSlice } from "react-icons/lu";
 const NavLinks= [
@@ -38,6 +38,7 @@ const NavLinks= [
 const Header = () => {
   return (
     <header>
+        <GiHamburgerMenu className='menuicon'/>
    <div>
  {NavLinks.map((link,id)=>{
  return( <div className= { link.id == 1 ? "navcomponent-active":"navcomponent"} key={id}>
