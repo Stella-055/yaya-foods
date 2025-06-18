@@ -1,3 +1,12 @@
+# Yaya foods 
+![image](https://github.com/user-attachments/assets/a0b21140-439c-4397-8820-8ec9186b775f)
+
+This is abasic menu page for a hotel showing the available dishes
+
+It demonstrates the use of components in react
+
+## Live site :https://yayafoods.netlify.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
