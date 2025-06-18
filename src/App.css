@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+body{
+  padding: 1.5rem 3rem;
+  font-family: "Inter", sans-serif;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header{
+  display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 2rem;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+header div{
+  display: flex;
+  gap:1rem;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navcomponent{
+  gap: .05rem;
+  justify-content: center;
+  align-items: center;
 }
-
-.card {
-  padding: 2em;
+.navcomponent-active{
+  color: red;
+  gap: .05rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, .2);
+  padding: .5rem;
+  border-radius: 5px;
 }
-
-.read-the-docs {
-  color: #888;
+.navcomponent-link {
+ text-decoration: none;
+ 
+ font-weight:500 ;
+ color: black;
+}
+.navcomponent-link-active{
+  color: red;
+}
+header button{
+  padding: .5rem;
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  
 }
