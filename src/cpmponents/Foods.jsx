@@ -7,14 +7,15 @@ const Foods = () => {
    {
     foodlist.map(( food,id)=>{
   return (
-    <div key={id}>
-      <div>
+    <div key={id} className='food-container'>
+      <div className='food-container-image-div'>
         <img src={food.image} alt="imaga"  />
       </div>
-      <h2>{food.title}</h2>
+      <div className='food-container-details'>
+      <h3>{food.title}</h3>
       <p>{food.description}</p>
-      <h2>${food.price}</h2>
-
+      <h3 className='food-container-details-price'>${food.price}</h3>
+      </div>
     </div>
   )
 
@@ -25,7 +26,16 @@ const Foods = () => {
   )
 }
 
+const Foodlist = () => {
+  return (
+  <div className='foodcontainer-wrapper'>
+    <Foods/>
+  </div>
+   
+  )
+}
 
 
 
-export default Foods
+
+export default Foodlist

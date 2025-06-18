@@ -8,6 +8,7 @@
 body{
   padding: 1.5rem 3rem;
   font-family: "Inter", sans-serif;
+  background-color: whitesmoke;
 }
 header{
   display: flex;
@@ -27,7 +28,7 @@ header div{
   align-items: center;
 }
 .navcomponent-active{
-  color: red;
+  color:rgb(216, 2, 2);
   gap: .05rem;
   justify-content: center;
   align-items: center;
@@ -42,13 +43,48 @@ header div{
  color: black;
 }
 .navcomponent-link-active{
-  color: red;
+  color:rgb(216, 2, 2);
 }
 header button{
-  padding: .5rem;
-  background-color: red;
+  padding: .5rem 1rem;
+  background-color: rgb(216, 2, 2);
   color: white;
   border-radius: 2px;
   border: none;
   
+}
+.foodcontainer-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.food-container{
+  width: 20rem;
+  background-color: white;
+ border-radius: 10px;
+ 
+}
+.food-container-image-div {
+  width: 100%;
+ border-radius:10px ;
+ height: 15rem;
+ position: relative;
+}
+.food-container div img{
+  width: 100%;
+  border-top-right-radius:10px ;
+  border-top-left-radius:10px ;
+  height: 100%;
+}
+.food-container-details{
+  padding: 1rem;
+ 
+  
+}
+.food-container-details-price{
+  color: rgb(216, 2, 2);
+  margin-top: .5rem;
+}
+.food-container-details p{
+  margin-top: .5rem;
 }
