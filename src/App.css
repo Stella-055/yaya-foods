@@ -115,3 +115,6 @@ header button{
 .star{
   color: orange;
 }
+.food-container-details p{
+  font-weight: 250;
+}
